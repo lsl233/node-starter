@@ -1,7 +1,7 @@
-import express from 'express'
+import express from 'express';
+import config from './config';
 
-const port = 3000
+const app = express();
 
-const app = express()
-
-app.listen(port, () => console.log(`server start ${port}`))
+// eslint-disable-next-line no-console
+app.listen(config.port, () => console.log(`server start ${config.port}`));
