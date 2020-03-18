@@ -4,6 +4,8 @@ node_modules
 .idea
 .vscode
 .git
+
+coverage
 logs
 
 npm-debug.log*
