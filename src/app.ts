@@ -5,6 +5,4 @@ const app = express();
 
 app.use('/hello', helloRouter)
 
-
-
 export default app
