@@ -1,0 +1,11 @@
+output
+node_modules
+
+.idea
+.vscode
+.git
+logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
